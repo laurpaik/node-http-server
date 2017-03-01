@@ -34,7 +34,10 @@ function signatures. When you're finished taking notes, research one or two
 points you'd like made clearer. We will discuss our findings.
 
 -   [Class: `http.Server`](https://nodejs.org/dist/latest-v4.x/docs/api/http.html#http_class_http_server)
+  - a constructor function for Server
+  - node makes these for us, so we're never gonna need to do new http.Server or new http.ServerResponse
 -   [Class: `http.ServerResponse`](https://nodejs.org/dist/latest-v4.x/docs/api/http.html#http_class_http_serverresponse)
+  - This is what you have before your data gets stringified into JSON
 -   [`http.Server` Event: `'request'`](https://nodejs.org/dist/latest-v4.x/docs/api/http.html#http_event_request)
 -   [`server.listen(path[, callback])`](https://nodejs.org/dist/latest-v4.x/docs/api/http.html#http_server_listen_path_callback)
 -   [`server.listen(port[, hostname][, backlog][, callback])`](https://nodejs.org/dist/latest-v4.x/docs/api/http.html#http_server_listen_port_hostname_backlog_callback)
